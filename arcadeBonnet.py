@@ -40,7 +40,7 @@ key = [ # EDIT KEYCODES IN THIS TABLE TO YOUR PREFERENCES:
 	e.KEY_K         # Analog up
 ]
 
-addr   = 0x26 # I2C Address of MCP23017
+addr   = 0x20 # I2C Address of MCP23017
 irqPin = 17   # IRQ pin for MCP23017
 
 os.system("sudo modprobe uinput")
